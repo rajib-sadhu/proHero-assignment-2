@@ -1,11 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
+
+a{
+    text-decoration: none;
+}
+
+/* body */
+
+body{
+    width: 80vw;
+    margin: 0 auto;
+
+}
+/* overall font size adjust in 1rem = 10px */
+html{
+    font-size: 62.5%;
+}
+
+
+/* Navbar section */
 nav{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     margin-top: 30px;
 }
+nav h2{
+    font-size: 3rem;
+}
 
+nav ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+nav ul li{
+    margin-left: 2rem;
+}
+nav ul a{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
