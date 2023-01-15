@@ -295,7 +295,10 @@ header .header_img{
 
  .sponser{
     text-align: center;
-    margin: 5rem 10rem;
+    margin: 15rem;
+ }
+ .sponser_head{
+    margin: 5rem;
  }
 .sponser_head h3{
     font-size: 4rem;
@@ -304,6 +307,16 @@ header .header_img{
     font-size: 1.3rem;
     font-weight: 500;
     color: gray;
+    padding: 0 30rem;
+}
+.sponser_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sponser_bottom img{
+    width: 13rem;
+    filter: grayscale(1);
 }
 
 
