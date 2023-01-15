@@ -318,7 +318,18 @@ header .header_img{
     width: 13rem;
     filter: grayscale(1);
 }
-
+/* footer */
+footer{
+    width: 100%;
+    background-color: #ffebd3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+}
+footer p{
+    font-size: 1.5rem;
+}
 
 
 
@@ -408,6 +419,21 @@ header .header_img{
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
+    }
+    .sponser_head{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .sponser_head p{
+        padding: 0;
+        margin-bottom: 5rem;
+    }
+    .sponser_bottom{
+        gap: 2rem;
+    }
+    .sponser_bottom img{
+        width: 10rem;
     }
 
 }
