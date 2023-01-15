@@ -5,6 +5,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.primary_btn{
+    background-color:#FF900E;
+    border: none;
+    color: #ffff;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
 
 a{
     text-decoration: none;
@@ -15,6 +23,7 @@ a{
 body{
     width: 80vw;
     margin: 0 auto;
+    background-color: rgba(255, 144, 14, .1);
 
 }
 /* overall font size adjust in 1rem = 10px */
@@ -27,8 +36,8 @@ html{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin-top: 30px;
+    /* padding: 20px; */
+    margin-top: 40px;
 }
 nav h2{
     font-size: 3rem;
@@ -47,4 +56,87 @@ nav ul a{
     color: black;
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+nav ul a:hover{
+    transition: all .15s linear;
+    color: gray;
+}
+/* header section */
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+/* header upper */
+
+header .upper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+header .upper .header_head{
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+header .upper .header_para{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: gray;
+}
+/* header .upper .header_btn{
+    
+} */
+
+/* header lower */
+
+header .lower{
+    width: 80%;
+}
+header .header_img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    html{
+        font-size: 50%;
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav h2{
+        margin-bottom: 2rem;
+    }
+    nav ul{
+        justify-content: center;
+        margin-left: 0;
+    }
+        
+    header .upper {
+        width: 100%;
+    }
 }
